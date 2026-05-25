@@ -1,0 +1,40 @@
+---
+layout: default
+title: Writing
+permalink: /blog/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Writing</h1>
+    <p>Research commentary, policy analysis, and data interpretation. All posts reflect my own views, not those of UC Davis.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="post-list">
+    {% for post in site.posts %}
+    <article class="post-preview">
+      <div class="post-preview-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        {% if post.tags.size > 0 %}
+        <span class="post-tags">
+          {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+      <h2 class="post-preview-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.excerpt %}
+      <p class="post-preview-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+      {% endif %}
+      <a href="{{ post.url | relative_url }}" class="read-more">Read &rarr;</a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <div class="blog-subscribe">
+    <p>Subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a> to get new posts in your reader. Or follow on <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> or <a href="{{ site.social.twitter }}" target="_blank" rel="noopener">X/Twitter</a>.</p>
+  </div>
+</div>
