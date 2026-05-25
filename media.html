@@ -1,0 +1,31 @@
+---
+layout: default
+title: Media
+permalink: /media.html
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Media</h1>
+    <p>Radio, print, and online coverage of my research and commentary on EV policy. For interview requests, contact <a href="mailto:gtal@ucdavis.edu" style="color:rgba(255,255,255,0.9)">gtal@ucdavis.edu</a>.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="media-list">
+    {% for item in site.data.media %}
+    <article class="media-item">
+      <div class="media-date">
+        <time>{{ item.date | date: "%b %-d, %Y" }}</time>
+      </div>
+      <div class="media-content">
+        <a class="media-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        <span class="media-outlet">
+          {{ item.outlet }}
+          <span class="media-type-badge">{{ item.type }}</span>
+        </span>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
