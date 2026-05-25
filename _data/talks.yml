@@ -1,0 +1,47 @@
+# _data/talks.yml
+# Add new items at the TOP of this list.
+# Required: date, event, title, location
+# Optional: url, type, slides_url
+# Types: keynote, invited, briefing, panel, webinar
+
+- date: 2026-05-15
+  event: CARB ZEV Policy Workshop
+  title: "Used EV Markets and the Path to 100% ZEV Sales"
+  location: Sacramento, CA
+  type: briefing
+  featured: true
+
+- date: 2026-04-10
+  event: SAE World Congress
+  title: "Beyond Early Adopters: Mainstream EV Transition Dynamics"
+  location: Detroit, MI
+  type: keynote
+  featured: true
+
+- date: 2026-03-03
+  event: Transportation Research Board Annual Meeting
+  title: "Section 1129 Feebate Analysis: Revenue-Neutral ZEV Policy Design"
+  location: Washington, DC
+  type: invited
+  featured: false
+
+- date: 2025-11-14
+  event: UC Statewide Energy Efficiency Collaborative
+  title: "EV Charging Load Profiles and Grid Integration"
+  location: Davis, CA
+  type: invited
+  featured: false
+
+- date: 2025-09-28
+  event: Governor's Office of Business & Economic Development Briefing
+  title: "California EV Industry: Employment and Investment Data"
+  location: Sacramento, CA
+  type: briefing
+  featured: false
+
+- date: 2025-06-12
+  event: International Electric Vehicle Symposium (EVS38)
+  title: "Long-Term EV Ownership Patterns: 10 Years of Panel Data"
+  location: Lyon, France
+  type: invited
+  featured: false
