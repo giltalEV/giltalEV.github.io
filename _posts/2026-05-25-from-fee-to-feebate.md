@@ -5,6 +5,9 @@ date: 2026-05-25
 tags: [policy, feebate, ZEV, Section-1129, Congress]
 excerpt: "Section 1129 of the budget reconciliation bill would impose a fee on EV buyers. A simple redesign converts it into a feebate — revenue neutral, economically efficient, and still market-friendly."
 featured: true
+featured_image: /assets/img/posts/two-ev-household.jpg
+featured_image_alt: "A Ford Mustang Mach-E and Tesla Model Y parked side by side in a residential driveway — a two-EV household"
+featured_image_caption: "A two-EV household: Ford Mustang Mach-E (traditional OEM) and Tesla Model Y. Photo: Gil Tal"
 ---
 
 Congress is debating Section 1129 of the budget reconciliation bill, which would impose a fee on purchases of electric vehicles. The stated goal is fiscal: recoup some of the revenue lost when the Inflation Reduction Act's Section 30D tax credit is eliminated. The effect, in most analyses, would be to slow ZEV adoption at exactly the moment the market needs to cross from early-majority to mainstream.
