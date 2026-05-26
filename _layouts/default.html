@@ -18,7 +18,7 @@
           <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Writing</a>
           <a href="{{ '/media.html' | relative_url }}" {% if page.url == '/media.html' %}class="active"{% endif %}>Media</a>
           <a href="{{ '/publications.html' | relative_url }}" {% if page.url == '/publications.html' %}class="active"{% endif %}>Research</a>
-          <a href="{{ '/cv.html' | relative_url }}" {% if page.url == '/cv.html' %}class="active"{% endif %}>CV</a>
+          <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv' %}class="active"{% endif %}>CV</a>
         </nav>
       </div>
     </div>
