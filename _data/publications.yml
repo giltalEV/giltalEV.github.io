@@ -109,7 +109,7 @@
   title: "Exploring new tools for modeling home and commute charging demand: A California case study"
   type: peer-reviewed
   journal: "Transportation Planning and Technology"
-  url: https://www.tandfonline.com/journals/gtpt20
+  url: https://doi.org/10.1080/03081060.2025.2487820
   featured: false
 
 - year: 2025
@@ -156,7 +156,7 @@
   type: peer-reviewed
   journal: "Transportation Research Record"
   note: "Introducing the MONET model"
-  url: https://journals.sagepub.com/home/trr
+  url: https://journals.sagepub.com/doi/pdf/10.1177/03611981241244797
   featured: false
 
 - year: 2024
@@ -182,7 +182,7 @@
   title: "How many more public charging stations do we need? A data-driven approach considering charging station overflow dynamics"
   type: peer-reviewed
   journal: "Transportation Research Record"
-  url: https://journals.sagepub.com/home/trr
+  url: https://doi.org/10.1177/03611981241242081
   featured: false
 
 # ── 2023 ──────────────────────────────────────────────────────────────────────
