@@ -1,70 +1,108 @@
 # _data/publications.yml
+# Verified from Google Scholar (scholar.google.com/citations?user=GPL6-gwAAAAJ) — May 2026
 # Add new items at the TOP of this list.
 # Required: year, authors, title, type
 # Optional: journal, url, doi, featured, note
 # Types: peer-reviewed, working-paper, report, book-chapter
 
 - year: 2026
-  authors: "Tal, G., Favetti, M., & Lee, J.H."
-  title: "Zero-Emission Vehicles Are Entering the Used Market: Adoption Patterns and Policy Implications"
+  authors: "Tal, G., & Ramadoss, T."
+  title: "Assessing the Market for Used Electric Vehicles in California"
   type: working-paper
-  journal: UC Davis ITS Working Paper Series
-  url: https://its.ucdavis.edu/research/publications/
+  journal: UC Davis Institute of Transportation Studies
+  url: https://escholarship.org/
   featured: true
 
-- year: 2025
-  authors: "Tal, G., & Niemeier, D."
-  title: "Section 1129 and the Feebate Alternative: Revenue-Neutral Pathways to ZEV Adoption"
-  type: working-paper
-  journal: UC Davis ITS Policy Brief
-  url: https://its.ucdavis.edu/research/publications/
+- year: 2026
+  authors: "Tal, G., Nordhoff, S., Hardman, S., Steren, A., & Konstantinou, T."
+  title: "State of Zero-Emission Vehicle Secondary Market and Accessibility Impacts in California's Underserved Communities"
+  type: report
+  journal: UC Davis Institute of Transportation Studies
+  url: https://escholarship.org/
   featured: true
 
-- year: 2025
-  authors: "Tal, G., Chakraborty, D., & Hardman, S."
-  title: "EV Range and Real-World Driving: Closing the Expectation Gap"
-  type: peer-reviewed
-  journal: Transportation Research Part D
-  doi: "10.1016/j.trd.2025.XXXXX"
-  url: https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment
+- year: 2026
+  authors: "Tal, G., & Kurani, K."
+  title: "Zero-Emission Vehicles Are Entering the Used Market: What Does This Mean for California?"
+  type: working-paper
+  journal: UC Davis Institute of Transportation Studies, Working Paper Series
+  url: https://escholarship.org/
   featured: false
 
 - year: 2025
-  authors: "Jenn, A., Tal, G., & Levin, L."
-  title: "Equity Dimensions of Electric Vehicle Adoption in California"
-  type: peer-reviewed
-  journal: Nature Energy
-  url: https://www.nature.com/nenergy/
-  featured: false
-
-- year: 2024
-  authors: "Tal, G., Kurani, K., & Hardman, S."
-  title: "Who Buys EVs and Why: A Decade of Survey Evidence from California"
+  authors: "Ramadoss, T.V., Jenn, A., Davis, A.W., & Tal, G."
+  title: "Why buy multiple electric vehicles? The roles of vehicle ownership, charging access, and energy choices in California"
   type: peer-reviewed
   journal: Energy Research & Social Science
-  url: https://its.ucdavis.edu/research/publications/
+  doi: "10.1016/j.erss.2025.104391"
+  url: https://www.sciencedirect.com/science/article/pii/S2214629625000891
+  featured: false
+
+- year: 2025
+  authors: "Ramadoss, T.V., Lee, J.H., Davis, A.W., Hardman, S., & Tal, G."
+  title: "Classifying electric vehicle adopters and forecasting progress to full adoption"
+  type: peer-reviewed
+  journal: npj Sustainable Mobility and Transport
+  url: https://www.nature.com/articles/s44333-025-00032-4
+  featured: false
+
+- year: 2025
+  authors: "Plötz, P., & Tal, G."
+  title: "Regulate reality in vehicle emission policy"
+  type: peer-reviewed
+  journal: "Communications Earth & Environment"
+  doi: "10.1038/s43247-025-02041-2"
+  url: https://www.nature.com/articles/s43247-025-02041-2
+  featured: false
+
+- year: 2025
+  authors: "Hardman, S., Chakraborty, A., Hoogland, K., Sugihara, C., Helveston, J.P., & Tal, G."
+  title: "Demand-side challenges and research needs on the road to 100% zero-emission vehicle sales"
+  type: peer-reviewed
+  journal: Progress in Energy
+  url: https://iopscience.iop.org/article/10.1088/2516-1083/adbed8
+  featured: false
+
+- year: 2025
+  authors: "Jenn, A., Chakraborty, A., Hardman, S., Hoogland, K., Sugihara, C., & Tal, G."
+  title: "Supply-side challenges and research needs on the road to 100% zero-emissions vehicle sales"
+  type: peer-reviewed
+  journal: Progress in Energy
+  url: https://iopscience.iop.org/article/10.1088/2516-1083/adbed9
   featured: false
 
 - year: 2024
-  authors: "Chakraborty, D., Tal, G., & Lee, J.H."
-  title: "Fleet Electrification Rates Among Early Commercial EV Adopters"
-  type: report
-  journal: "California Air Resources Board Technical Report"
-  url: https://ww2.arb.ca.gov/
-  featured: false
-
-- year: 2023
-  authors: "Tal, G., & Nicholas, M.A."
-  title: "Spatial Diffusion of Plug-in Electric Vehicles Across U.S. Markets"
+  authors: "Olguin, F.P., Busch, P., Chandra, M., & Tal, G."
+  title: "Shifting manufacturing: Electric vehicle supply strategy using the model for international EV trade"
   type: peer-reviewed
-  journal: Transportation Research Record
-  url: https://journals.sagepub.com/home/trr
+  journal: Journal of Cleaner Production
+  doi: "10.1016/j.jclepro.2024.144357"
+  url: https://www.sciencedirect.com/science/article/pii/S0959652624042562
   featured: false
 
-- year: 2023
+- year: 2021
   authors: "Hardman, S., & Tal, G."
-  title: "Informing Charging Infrastructure Investment: EV Driver Behavior and Needs"
+  title: "Understanding discontinuance among California's electric vehicle owners"
   type: peer-reviewed
-  journal: Transportation Research Part A
-  url: https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice
+  journal: Nature Energy
+  doi: "10.1038/s41560-021-00814-9"
+  url: https://www.nature.com/articles/s41560-021-00814-9
+  featured: false
+
+- year: 2020
+  authors: "Lee, J.H., Chakraborty, D., Hardman, S.J., & Tal, G."
+  title: "Exploring electric vehicle charging patterns: Mixed usage of charging infrastructure"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2019.102249"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920919307151
+  featured: false
+
+- year: 2018
+  authors: "Hardman, S., Jenn, A., Tal, G., Axsen, J., Beard, G., Daina, N., Figenbaum, E., et al."
+  title: "A review of consumer preferences of and interactions with electric vehicle charging infrastructure"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2018.01.002"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920917303620
   featured: false
