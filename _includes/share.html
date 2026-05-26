@@ -1,0 +1,14 @@
+<div class="share-section">
+  <span class="share-label">Share or connect:</span>
+  <div class="share-links">
+    <a class="share-btn share-linkedin"
+       href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}"
+       target="_blank" rel="noopener" aria-label="Share on LinkedIn">LinkedIn</a>
+    <a class="share-btn share-twitter"
+       href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url | uri_escape }}&via=giltal"
+       target="_blank" rel="noopener" aria-label="Share on X">X / Twitter</a>
+    <a class="share-btn share-email"
+       href="mailto:gtal@ucdavis.edu?subject=Re: {{ page.title | uri_escape }}"
+       aria-label="Contact by email">Contact</a>
+  </div>
+</div>

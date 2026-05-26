@@ -1,0 +1,70 @@
+# _data/publications.yml
+# Add new items at the TOP of this list.
+# Required: year, authors, title, type
+# Optional: journal, url, doi, featured, note
+# Types: peer-reviewed, working-paper, report, book-chapter
+
+- year: 2026
+  authors: "Tal, G., Favetti, M., & Lee, J.H."
+  title: "Zero-Emission Vehicles Are Entering the Used Market: Adoption Patterns and Policy Implications"
+  type: working-paper
+  journal: UC Davis ITS Working Paper Series
+  url: https://its.ucdavis.edu/research/publications/
+  featured: true
+
+- year: 2025
+  authors: "Tal, G., & Niemeier, D."
+  title: "Section 1129 and the Feebate Alternative: Revenue-Neutral Pathways to ZEV Adoption"
+  type: working-paper
+  journal: UC Davis ITS Policy Brief
+  url: https://its.ucdavis.edu/research/publications/
+  featured: true
+
+- year: 2025
+  authors: "Tal, G., Chakraborty, D., & Hardman, S."
+  title: "EV Range and Real-World Driving: Closing the Expectation Gap"
+  type: peer-reviewed
+  journal: Transportation Research Part D
+  doi: "10.1016/j.trd.2025.XXXXX"
+  url: https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment
+  featured: false
+
+- year: 2025
+  authors: "Jenn, A., Tal, G., & Levin, L."
+  title: "Equity Dimensions of Electric Vehicle Adoption in California"
+  type: peer-reviewed
+  journal: Nature Energy
+  url: https://www.nature.com/nenergy/
+  featured: false
+
+- year: 2024
+  authors: "Tal, G., Kurani, K., & Hardman, S."
+  title: "Who Buys EVs and Why: A Decade of Survey Evidence from California"
+  type: peer-reviewed
+  journal: Energy Research & Social Science
+  url: https://its.ucdavis.edu/research/publications/
+  featured: false
+
+- year: 2024
+  authors: "Chakraborty, D., Tal, G., & Lee, J.H."
+  title: "Fleet Electrification Rates Among Early Commercial EV Adopters"
+  type: report
+  journal: "California Air Resources Board Technical Report"
+  url: https://ww2.arb.ca.gov/
+  featured: false
+
+- year: 2023
+  authors: "Tal, G., & Nicholas, M.A."
+  title: "Spatial Diffusion of Plug-in Electric Vehicles Across U.S. Markets"
+  type: peer-reviewed
+  journal: Transportation Research Record
+  url: https://journals.sagepub.com/home/trr
+  featured: false
+
+- year: 2023
+  authors: "Hardman, S., & Tal, G."
+  title: "Informing Charging Infrastructure Investment: EV Driver Behavior and Needs"
+  type: peer-reviewed
+  journal: Transportation Research Part A
+  url: https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice
+  featured: false

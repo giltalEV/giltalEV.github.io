@@ -1,0 +1,33 @@
+---
+layout: default
+title: Publications
+permalink: /publications.html
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Publications</h1>
+    <p>Peer-reviewed articles, working papers, and reports. Full list on <a href="{{ site.social.scholar }}" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.9)">Google Scholar</a>.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="pub-list">
+    {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+    {% for year_group in pubs_by_year %}
+    <div class="pub-year-group">
+      <h2 class="pub-year-heading">{{ year_group.name }}</h2>
+      {% for pub in year_group.items %}
+      <div class="pub-item">
+        <p class="pub-title">
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+          <span class="pub-type-badge">{{ pub.type | replace: "-", " " }}</span>
+        </p>
+        <p class="pub-authors">{{ pub.authors }}</p>
+        <p class="pub-journal">{{ pub.journal }}{% if pub.doi %} &middot; DOI: {{ pub.doi }}{% endif %}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

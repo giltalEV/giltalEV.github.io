@@ -1,0 +1,15 @@
+{% comment %}
+Usage in a blog post:
+  {% include figure.html src="/assets/img/posts/my-chart.png" alt="Chart showing EV sales" caption="Q1 2026 EV sales by state. Source: IHS Markit." %}
+
+Optional parameter: width="wide" to break out of text column
+{% endcomment %}
+
+<figure class="post-figure {% if include.width == 'wide' %}figure-wide{% endif %}">
+  <img src="{{ include.src | relative_url }}"
+       alt="{{ include.alt }}"
+       loading="lazy">
+  {% if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

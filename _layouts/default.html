@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="site-title" href="{{ '/' | relative_url }}">Gil Tal</a>
+        <nav class="site-nav">
+          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Writing</a>
+          <a href="{{ '/media.html' | relative_url }}" {% if page.url == '/media.html' %}class="active"{% endif %}>Media</a>
+          <a href="{{ '/publications.html' | relative_url }}" {% if page.url == '/publications.html' %}class="active"{% endif %}>Research</a>
+          <a href="{{ '/cv.html' | relative_url }}" {% if page.url == '/cv.html' %}class="active"{% endif %}>CV</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>&copy; {{ 'now' | date: "%Y" }} Gil Tal &middot; UC Davis Institute of Transportation Studies</p>
+        <nav class="footer-nav">
+          <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="{{ site.social.twitter }}" target="_blank" rel="noopener">X/Twitter</a>
+          <a href="{{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="{{ site.its_url }}" target="_blank" rel="noopener">ITS Profile</a>
+          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

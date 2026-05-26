@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="container">
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {% if page.tags.size > 0 %}
+        <span class="post-tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+    </header>
+
+    {% if page.featured_image %}
+    <div class="post-featured-image">
+      <img src="{{ page.featured_image | relative_url }}"
+           alt="{{ page.featured_image_alt | default: page.title }}"
+           class="post-hero-img">
+      {% if page.featured_image_caption %}
+      <p class="post-img-caption">{{ page.featured_image_caption }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <footer class="post-footer">
+      {% include share.html %}
+      <div class="post-nav">
+        <a href="{{ '/blog/' | relative_url }}" class="back-link">&larr; All posts</a>
+      </div>
+    </footer>
+  </div>
+</article>
