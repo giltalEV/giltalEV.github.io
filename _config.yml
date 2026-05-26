@@ -1,13 +1,14 @@
 # _config.yml — Gil Tal Media Hub
 title: Gil Tal
 tagline: "Transportation Energy & Policy | UC Davis"
-description: "Gil Tal is Director of the Plug-in Hybrid & Electric Vehicle Research Center at UC Davis Institute of Transportation Studies."
+description: "Gil Tal is Director of the Electric Vehicle Research Center and Professor of Environmental Science and Policy at UC Davis Institute of Transportation Studies."
 url: "https://giltalev.github.io"
 baseurl: ""
+
 author:
   name: Gil Tal
   email: gtal@ucdavis.edu
-  title: Director, Plug-in Hybrid & Electric Vehicle Research Center
+  title: "Director, EV Research Center · Professor, Environmental Science and Policy"
   institution: UC Davis Institute of Transportation Studies
 
 # Build settings
@@ -45,12 +46,12 @@ exclude:
   - "*.tar.gz"
   - vendor/
 
-# Social
+# Social — verified May 2026
 social:
-  linkedin: "https://www.linkedin.com/in/giltal/"
+  linkedin: "https://www.linkedin.com/in/gil-tal-ucdavis/"
   twitter: "https://twitter.com/giltal"
-  scholar: "https://scholar.google.com/citations?user=jMpPE-EAAAAJ"
+  scholar: "https://scholar.google.com/citations?user=GPL6-gwAAAAJ"
 
-# ITS link
-its_url: "https://its.ucdavis.edu/people/gil-tal/"
-phev_url: "https://phev.ucdavis.edu/"
+# ITS links — verified May 2026
+its_url: "https://its.ucdavis.edu/people/gil-tal"
+phev_url: "https://ev.ucdavis.edu/"
