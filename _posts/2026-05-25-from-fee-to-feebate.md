@@ -58,4 +58,4 @@ I am happy to brief any congressional or agency staff on the design options and 
 
 ---
 
-*Gil Tal directs the Plug-in Hybrid & Electric Vehicle Research Center at UC Davis Institute of Transportation Studies. The views expressed are his own.*
+*Gil Tal directs the Electric Vehicle Research Center at UC Davis Institute of Transportation Studies. The views expressed are his own.*
