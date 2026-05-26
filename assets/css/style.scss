@@ -553,3 +553,28 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
+
+
+/* ─── Site intro section ─────────────────────────────── */
+.site-intro {
+  background: #fff;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 2rem 0;
+}
+
+.site-intro-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.site-intro-inner p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.site-intro-inner p:last-child {
+  margin-bottom: 0;
+}
