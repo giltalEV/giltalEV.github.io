@@ -1,12 +1,456 @@
 # _data/media.yml
-# Verified media appearances only — no hallucinated entries.
-# Add new items at the TOP of this list (reverse-chronological order).
-# Required fields: date, outlet, title, url, type
-# Type options: radio, print, tv, podcast, online
-# Set featured: true for items to appear on homepage (keep to 4-5 max)
-#
-# HOW TO ADD:
-#   "Add this media hit: [URL]" — Claude will generate the entry.
-#   Or paste the details below manually.
+# Source: Gil Tal CV, last updated April 2026
+# All verified media appearances 2022-2026
+# Types: radio, print, tv, podcast, online
+# featured: true = show on homepage (keep to 4-5 max)
 
-# No verified entries yet. Add real appearances as you recall them.
+# ── 2026 ──────────────────────────────────────────────────────────────────────
+
+- date: 2026-04-01
+  outlet: Politico
+  title: "Meet the Man Watching California's Oil Markets"
+  url: https://www.politico.com/
+  type: print
+  featured: true
+
+- date: 2026-03-01
+  outlet: "Abridged / PBS KVIE"
+  title: "Tesla and Other EV Sales Plummet in Sacramento Region"
+  url: https://www.kvie.org/
+  type: tv
+  featured: true
+
+- date: 2026-01-01
+  outlet: NPR Marketplace
+  title: "Extended-range EVs and U.S. market dynamics"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: true
+
+# ── 2025 ──────────────────────────────────────────────────────────────────────
+
+- date: 2025-11-01
+  outlet: NPR Marketplace
+  title: "Why EVs Are Probably Here to Stay Despite the End of Tax Credits"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2025-09-01
+  outlet: Christian Science Monitor
+  title: "Federal EV Tax Credit Deadline Coverage"
+  url: https://www.csmonitor.com/
+  type: print
+  featured: false
+
+- date: 2025-06-01
+  outlet: DW Planet
+  title: "This Is What's Holding Back Electric Cars"
+  url: https://www.dw.com/en/planet/
+  type: online
+  featured: false
+
+- date: 2025-05-01
+  outlet: "NPR AirTalk"
+  title: "California's Gas Vehicle Ban Blocked in the Senate"
+  url: https://laist.com/
+  type: radio
+  featured: false
+
+- date: 2025-05-01
+  outlet: Politico
+  title: "Congress to Musk: It's Not You, It's Us"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2025-05-01
+  outlet: NPR Marketplace
+  title: "EV Drivers Don't Pay the Gas Taxes That Cover Road Maintenance: Republicans in Congress Want Them to Pay an Annual Fee Instead"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2025-04-01
+  outlet: CNBC
+  title: "Are Elon Musk and Tesla Giving Up on EVs?"
+  url: https://www.cnbc.com/
+  type: tv
+  featured: false
+
+- date: 2025-04-01
+  outlet: The Los Angeles Times
+  title: "Another Victim of Trump's Tariffs: California's Electric Vehicle Ambitions"
+  url: https://www.latimes.com/
+  type: print
+  featured: false
+
+- date: 2025-04-01
+  outlet: CNBC
+  title: "All the Ways BYD Is Leaving Tesla in the Dust"
+  url: https://www.cnbc.com/
+  type: tv
+  featured: false
+
+- date: 2025-03-01
+  outlet: Rest of World
+  title: "U.S. Tariffs Threaten Mexico's Booming EV Sector"
+  url: https://restofworld.org/
+  type: online
+  featured: false
+
+- date: 2025-03-01
+  outlet: CBS News
+  title: "California Announces It Has More Electric Charging Stations Than Gas Station Nozzles"
+  url: https://www.cbsnews.com/
+  type: tv
+  featured: false
+
+- date: 2025-03-01
+  outlet: Washington Post
+  title: "The Electric-Vehicle Revolution May Be on Shakier Ground Than You Think"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2025-03-01
+  outlet: Politico
+  title: "Climate with a Side of Trade"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2025-03-01
+  outlet: New Scientist
+  title: "Will We Soon Be Able to Charge Electric Cars in Minutes?"
+  url: https://www.newscientist.com/
+  type: print
+  featured: false
+
+- date: 2025-03-01
+  outlet: NPR Marketplace
+  title: "What's Behind Tesla's Post-Election Stock Slump?"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2025-03-01
+  outlet: FOX26NEWS
+  title: "Experts Warn Trump's Funding Cut May Impact Consumer Confidence in EV Charging Network"
+  url: https://www.fox26houston.com/
+  type: tv
+  featured: false
+
+- date: 2025-02-01
+  outlet: "UNFold UC Davis"
+  title: "Fixing EV Charger Woes!"
+  url: https://unfold.ucdavis.edu/
+  type: podcast
+  featured: false
+
+- date: 2025-02-01
+  outlet: "NPR LAist AirTalk"
+  title: "How Might President Trump's Halt on EV Charging Funds Affect Electric Vehicle Sales?"
+  url: https://laist.com/
+  type: radio
+  featured: false
+
+- date: 2025-02-01
+  outlet: Washington Post
+  title: "Just Causing Havoc: Transportation Department Suspends EV Charger Program"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2025-01-01
+  outlet: The Sacramento Bee
+  title: "California Is Awarded $122M to Build EV Infrastructure, Including Chargers in Sacramento"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2025-01-01
+  outlet: "CBS News / CBS Sacramento"
+  title: "SMUD Receives $11.6 Million Federal Grant to Install New EV Charging Stations in Sacramento Region"
+  url: https://www.cbsnews.com/sacramento/
+  type: tv
+  featured: false
+
+- date: 2025-01-01
+  outlet: NPR Marketplace
+  title: "Electric Vehicle Sales Power Ahead, Along with Charging Station Builds"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2025-01-01
+  outlet: MIT Technology Review
+  title: "Why EVs Are (Mostly) Set for Solid Growth in 2025"
+  url: https://www.technologyreview.com/
+  type: print
+  featured: false
+
+# ── 2024 ──────────────────────────────────────────────────────────────────────
+
+- date: 2024-12-01
+  outlet: NPR capradio
+  title: "Gov. Newsom's Shifting California vs. Trump Narrative; Analyzing California's Proposed EV Credit"
+  url: https://www.capradio.org/
+  type: radio
+  featured: false
+
+- date: 2024-12-01
+  outlet: Washington Post
+  title: "Small SUVs Are Now the Country's Cleanest Cars. Really."
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2024-11-01
+  outlet: "FOX KTVU San Francisco"
+  title: "Newsom's Proposed EV Rebate Under Fire, as Tesla May Not Qualify"
+  url: https://www.ktvu.com/
+  type: tv
+  featured: false
+
+- date: 2024-11-01
+  outlet: Politico
+  title: "Rebates All Around but Not for Tesla"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2024-11-01
+  outlet: The Sacramento Bee
+  title: "Newsom Said California Would Offer EV Rebates if Trump Cut Them: Where Would the Money Come From?"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2024-11-01
+  outlet: "NPR AirTalk LA"
+  title: "Newsom Pledges Additional EV State Tax Rebates if Trump Eliminates Federal Rebates"
+  url: https://laist.com/
+  type: radio
+  featured: false
+
+- date: 2024-11-01
+  outlet: MotorTrend Channel
+  title: "Why America Is Struggling with EVs"
+  url: https://www.motortrend.com/
+  type: tv
+  featured: false
+
+- date: 2024-11-01
+  outlet: Wired
+  title: "Automakers Are Hot for Extended-Range EVs: They Hope Buyers Like Them Too"
+  url: https://www.wired.com/
+  type: print
+  featured: false
+
+- date: 2024-06-01
+  outlet: Politico
+  title: "What Mexico's New Climate Scientist President Means for California"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2024-05-01
+  outlet: Washington Post
+  title: "Here's Why So Many Republicans Won't Buy EVs"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2024-05-01
+  outlet: The Sacramento Bee
+  title: "California EV Sales Start Strong in 2024 Despite Tesla Fatigue"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2024-04-01
+  outlet: Politico
+  title: "California Doesn't Need Elon Musk (Except When It Does)"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2024-04-01
+  outlet: Washington Post
+  title: "A Small EV Tax Credit Change Makes Going Electric More Accessible"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2024-04-01
+  outlet: The Sacramento Bee
+  title: "Volkswagen Spent $800M on California EV Charging to Atone for Dieselgate: Drivers Aren't Happy"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2024-03-01
+  outlet: The New York Times
+  title: "How Toyota, a Laggard on Electric Cars, Got Its Fight Back"
+  url: https://www.nytimes.com/
+  type: print
+  featured: false
+
+- date: 2024-03-01
+  outlet: BBC
+  title: "EV Tax Credits Are Widespread, but Extra Fees Are Just as Common"
+  url: https://www.bbc.co.uk/
+  type: radio
+  featured: false
+
+- date: 2024-02-01
+  outlet: KPBS NPR
+  title: "The State of EVs in California Today"
+  url: https://www.kpbs.org/
+  type: radio
+  featured: false
+
+- date: 2024-02-01
+  outlet: Washington Post
+  title: "The Greenest Car in America Is Not an EV"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2024-01-01
+  outlet: Washington Post
+  title: "Plug-in Hybrids vs. Electric Cars: We Did the Math"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2024-01-01
+  outlet: Politico
+  title: "What Taylor Swift and EV Chargers Have in Common"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2024-01-01
+  outlet: Marketplace NPR
+  title: "How Cold Weather Is Impacting EVs"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+# ── 2023 ──────────────────────────────────────────────────────────────────────
+
+- date: 2023-11-01
+  outlet: Politico
+  title: "California's Pensions Are Getting Greener"
+  url: https://www.politico.com/
+  type: print
+  featured: false
+
+- date: 2023-08-01
+  outlet: PBS NewsHour
+  title: "This New Incentive Helps Pay for Your Next Electric Vehicle: Here's the Catch"
+  url: https://www.pbs.org/newshour/
+  type: tv
+  featured: false
+
+- date: 2023-08-01
+  outlet: Los Angeles Times
+  title: "Why Your New Electric Car Won't Have a Spare Tire (And Why You Probably Don't Need One)"
+  url: https://www.latimes.com/
+  type: print
+  featured: false
+
+- date: 2023-08-01
+  outlet: The Sacramento Bee
+  title: "California's Zero-Emission Vehicle Sales Are Accelerating: Can the State Meet Its 2035 Goal?"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2023-05-01
+  outlet: Marketplace NPR
+  title: "Electric Vehicle Sales Are Strong, but EV Startups Are Struggling"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2023-04-01
+  outlet: CNN
+  title: "Will America Ever Fully Embrace the Electric Vehicle?"
+  url: https://www.cnn.com/
+  type: tv
+  featured: false
+
+- date: 2023-03-01
+  outlet: The Sacramento Bee
+  title: "Could You Be One of California's Gasoline Superusers?"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2023-03-01
+  outlet: San Francisco Chronicle
+  title: "Could California Become the First State to Require Tesla Charging Stations to Open to All EVs?"
+  url: https://www.sfchronicle.com/
+  type: print
+  featured: false
+
+- date: 2023-03-01
+  outlet: Washington Post
+  title: "The Cars That Get You Addicted to Driving Electric"
+  url: https://www.washingtonpost.com/
+  type: print
+  featured: false
+
+- date: 2023-02-01
+  outlet: San Francisco Chronicle
+  title: "Tesla's Supercharger Move Has Big Implications for California"
+  url: https://www.sfchronicle.com/
+  type: print
+  featured: false
+
+- date: 2023-03-01
+  outlet: "AirTalk NPR"
+  title: "As Companies Feel Pressure to Make a Speedy Shift to Electric Vehicles, What's Their Path to Future Infrastructure?"
+  url: https://laist.com/
+  type: radio
+  featured: false
+
+# ── 2022 ──────────────────────────────────────────────────────────────────────
+
+- date: 2022-12-01
+  outlet: Wired
+  title: "Dear Electric Vehicle Owners: You Don't Need That Giant Battery"
+  url: https://www.wired.com/
+  type: print
+  featured: false
+
+- date: 2022-12-01
+  outlet: Marketplace NPR
+  title: "New Rule for Electric Car Tax Incentive Delayed"
+  url: https://www.marketplace.org/
+  type: radio
+  featured: false
+
+- date: 2022-12-01
+  outlet: NPR
+  title: "There's a Shortage of EV Charging Stations: How Will It Impact California's 2035 Mandate?"
+  url: https://www.npr.org/
+  type: radio
+  featured: false
+
+- date: 2022-10-01
+  outlet: The Sacramento Bee
+  title: "How Income Disparities in California Are Affecting the Adoption of Electric Cars"
+  url: https://www.sacbee.com/
+  type: print
+  featured: false
+
+- date: 2022-01-01
+  outlet: "PBS Energy Switch"
+  title: "Two episodes on Electric Vehicle Pros and Cons"
+  url: https://www.pbs.org/
+  type: tv
+  featured: false
