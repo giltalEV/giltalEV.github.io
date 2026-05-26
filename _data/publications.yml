@@ -1,50 +1,35 @@
 # _data/publications.yml
-# Verified from Google Scholar (scholar.google.com/citations?user=GPL6-gwAAAAJ) — May 2026
-# Add new items at the TOP of this list.
-# Required: year, authors, title, type
-# Optional: journal, url, doi, featured, note
-# Types: peer-reviewed, working-paper, report, book-chapter
+# Source: Gil Tal CV, last updated April 2026
+# All peer-reviewed journal articles, working papers, book chapters, and edited volumes
+# Types: peer-reviewed, working-paper, report, book-chapter, edited-volume
 
-- year: 2026
-  authors: "Tal, G., & Ramadoss, T."
-  title: "Assessing the Market for Used Electric Vehicles in California"
-  type: working-paper
-  journal: UC Davis Institute of Transportation Studies
-  url: https://escholarship.org/
-  featured: true
-
-- year: 2026
-  authors: "Tal, G., Nordhoff, S., Hardman, S., Steren, A., & Konstantinou, T."
-  title: "State of Zero-Emission Vehicle Secondary Market and Accessibility Impacts in California's Underserved Communities"
-  type: report
-  journal: UC Davis Institute of Transportation Studies
-  url: https://escholarship.org/
-  featured: true
+# ── 2026 ──────────────────────────────────────────────────────────────────────
 
 - year: 2026
   authors: "Tal, G., & Kurani, K."
-  title: "Zero-Emission Vehicles Are Entering the Used Market: What Does This Mean for California?"
+  title: "Zero-emission vehicles are entering the used market: What does this mean for California?"
   type: working-paper
-  journal: UC Davis Institute of Transportation Studies, Working Paper Series
+  journal: UC Davis Institute of Transportation Studies Working Paper Series
+  url: https://escholarship.org/
+  featured: true
+
+- year: 2026
+  authors: "Chakraborty, D., Konstantinou, T., Gutierrez Lopez, J. B., & Tal, G."
+  title: "Understanding today's used car buyers can help grow the market for used electric vehicles"
+  type: working-paper
+  journal: UC Davis Institute of Transportation Studies Working Paper Series
   url: https://escholarship.org/
   featured: false
 
-- year: 2025
-  authors: "Ramadoss, T.V., Jenn, A., Davis, A.W., & Tal, G."
-  title: "Why buy multiple electric vehicles? The roles of vehicle ownership, charging access, and energy choices in California"
-  type: peer-reviewed
-  journal: Energy Research & Social Science
-  doi: "10.1016/j.erss.2025.104391"
-  url: https://www.sciencedirect.com/science/article/pii/S2214629625000891
-  featured: false
+- year: 2026
+  authors: "Tal, G., & Ramadoss, T. V."
+  title: "Assessing the market for used electric vehicles in California"
+  type: working-paper
+  journal: UC Davis Institute of Transportation Studies
+  url: https://escholarship.org/
+  featured: true
 
-- year: 2025
-  authors: "Ramadoss, T.V., Lee, J.H., Davis, A.W., Hardman, S., & Tal, G."
-  title: "Classifying electric vehicle adopters and forecasting progress to full adoption"
-  type: peer-reviewed
-  journal: npj Sustainable Mobility and Transport
-  url: https://www.nature.com/articles/s44333-025-00032-4
-  featured: false
+# ── 2025 ──────────────────────────────────────────────────────────────────────
 
 - year: 2025
   authors: "Plötz, P., & Tal, G."
@@ -53,50 +38,380 @@
   journal: "Communications Earth & Environment"
   doi: "10.1038/s43247-025-02041-2"
   url: https://www.nature.com/articles/s43247-025-02041-2
+  note: "Nature family"
   featured: false
 
 - year: 2025
-  authors: "Hardman, S., Chakraborty, A., Hoogland, K., Sugihara, C., Helveston, J.P., & Tal, G."
-  title: "Demand-side challenges and research needs on the road to 100% zero-emission vehicle sales"
+  authors: "Busch, P., Pares, F., Tal, G., & Kendall, A."
+  title: "Who will have enough? Battery mineral demand and sufficiency in vehicle producing countries"
   type: peer-reviewed
-  journal: Progress in Energy
+  journal: "Environmental Science & Technology"
+  doi: "10.1021/acs.est.5c02158"
+  url: https://pubs.acs.org/doi/10.1021/acs.est.5c02158
+  featured: false
+
+- year: 2025
+  authors: "Ramadoss, T. V., Jenn, A., Davis, A. W., & Tal, G."
+  title: "Why buy multiple electric vehicles? The roles of vehicle ownership, charging access, and energy choices in California"
+  type: peer-reviewed
+  journal: "Energy Research & Social Science"
+  doi: "10.1016/j.erss.2025.104391"
+  url: https://www.sciencedirect.com/science/article/pii/S2214629625000891
+  featured: false
+
+- year: 2025
+  authors: "Tayarani, H., Rabinowitz, A., Jenn, A., & Tal, G."
+  title: "Assessment of vehicle-grid integration profitability subject to real-world driver behavior and electricity tariff"
+  type: peer-reviewed
+  journal: Energy
+  doi: "10.1016/j.energy.2025.139302"
+  url: https://www.sciencedirect.com/science/article/pii/S036054422500696X
+  featured: false
+
+- year: 2025
+  authors: "Chandra, M., Busch, P., Pares Olguin, F., & Tal, G."
+  title: "Paths of progress: Forecasting global electric vehicle demand amidst demographic and economic growth"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2025.104928"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920925000616
+  featured: false
+
+- year: 2025
+  authors: "Ramadoss, T. V., Lee, J. H., Davis, A. W., Hardman, S., & Tal, G."
+  title: "Classifying electric vehicle adopters and forecasting progress to full adoption"
+  type: peer-reviewed
+  journal: "npj Sustainable Mobility and Transport"
+  doi: "10.1038/s44333-025-00032-4"
+  url: https://www.nature.com/articles/s44333-025-00032-4
+  featured: false
+
+- year: 2025
+  authors: "Weekx, S., Tal, G., & Vanhaverbeke, L."
+  title: "EV charging habits and their impact on public charging infrastructure usage"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2025.104730"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920925000161
+  featured: false
+
+- year: 2025
+  authors: "Kwon, K., & Tal, G."
+  title: "Evaluating spatial equality of DC fast charging infrastructure: A case study of California"
+  type: peer-reviewed
+  journal: "Journal of Urban Planning and Development"
+  doi: "10.1061/JUPDDM.UPENG-4787"
+  url: https://ascelibrary.org/doi/10.1061/JUPDDM.UPENG-4787
+  featured: false
+
+- year: 2025
+  authors: "Kwon, K., Li, X., & Tal, G."
+  title: "Exploring new tools for modeling home and commute charging demand: A California case study"
+  type: peer-reviewed
+  journal: "Transportation Planning and Technology"
+  url: https://www.tandfonline.com/journals/gtpt20
+  featured: false
+
+- year: 2025
+  authors: "Hardman, S., Axsen, J., Chakraborty, A., Figenbaum, E., Helveston, J. P., Hoogland, K., Jenn, A., et al."
+  title: "Demand-side challenges and research needs on the road to 100% zero-emissions vehicles"
+  type: peer-reviewed
+  journal: "Progress in Energy"
+  doi: "10.1088/2516-1083/adbed8"
   url: https://iopscience.iop.org/article/10.1088/2516-1083/adbed8
   featured: false
 
 - year: 2025
-  authors: "Jenn, A., Chakraborty, A., Hardman, S., Hoogland, K., Sugihara, C., & Tal, G."
+  authors: "Jenn, A., Chakraborty, A., Hardman, S., Hoogland, K., Sugihara, C., Tal, G., et al."
   title: "Supply-side challenges and research needs on the road to 100% zero-emissions vehicle sales"
   type: peer-reviewed
-  journal: Progress in Energy
+  journal: "Progress in Energy"
+  doi: "10.1088/2516-1083/adbed9"
   url: https://iopscience.iop.org/article/10.1088/2516-1083/adbed9
   featured: false
 
+# ── 2024 ──────────────────────────────────────────────────────────────────────
+
 - year: 2024
-  authors: "Olguin, F.P., Busch, P., Chandra, M., & Tal, G."
+  authors: "Hardman, S., Shafaeen, M., & Tal, G."
+  title: "Identifying mass market adoption in the transition to electric vehicles"
+  type: peer-reviewed
+  journal: "Environmental Research Letters"
+  doi: "10.1088/1748-9326/ad8458"
+  url: https://iopscience.iop.org/article/10.1088/1748-9326/ad8458
+  featured: false
+
+- year: 2024
+  authors: "Pares Olguin, F., Busch, P., Chandra, M., & Tal, G."
   title: "Shifting manufacturing: Electric vehicle supply strategy using the model for international EV trade"
   type: peer-reviewed
-  journal: Journal of Cleaner Production
+  journal: "Journal of Cleaner Production"
   doi: "10.1016/j.jclepro.2024.144357"
   url: https://www.sciencedirect.com/science/article/pii/S0959652624042562
   featured: false
+
+- year: 2024
+  authors: "Busch, P., Pares, F., Chandra, M., Kendall, A., & Tal, G."
+  title: "Future of global electric vehicle supply chain: Exploring the impact of global trade on electric vehicle production and battery requirements"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  note: "Introducing the MONET model"
+  url: https://journals.sagepub.com/home/trr
+  featured: false
+
+- year: 2024
+  authors: "Gamage, T. D., Jenn, A. T., & Tal, G."
+  title: "Novel methodology to measure the reliability of public DC fast charging stations"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.1177/03611981241231810"
+  url: https://journals.sagepub.com/doi/10.1177/03611981241231810
+  featured: false
+
+- year: 2024
+  authors: "Chakraborty, D., Davis, A. W., & Tal, G."
+  title: "The cost of aggressive electrification targets: Who bears the burden without mitigating policies?"
+  type: peer-reviewed
+  journal: "Transportation Research Interdisciplinary Perspectives"
+  doi: "10.1016/j.trip.2024.101006"
+  url: https://www.sciencedirect.com/science/article/pii/S2590198224000058
+  featured: false
+
+- year: 2024
+  authors: "Weekx, S., Tal, G., & Vanhaverbeke, L."
+  title: "How many more public charging stations do we need? A data-driven approach considering charging station overflow dynamics"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  url: https://journals.sagepub.com/home/trr
+  featured: false
+
+# ── 2023 ──────────────────────────────────────────────────────────────────────
+
+- year: 2023
+  authors: "Lee, J. H., Cho, M., Tal, G., & Hardman, S."
+  title: "Do plug-in hybrid adopters switch to battery electric vehicles (and vice versa)?"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2023.103752"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920923001062
+  featured: false
+
+- year: 2023
+  authors: "Gamage, T., Tal, G., & Jenn, A. T."
+  title: "The costs and challenges of installing corridor DC fast chargers in California"
+  type: peer-reviewed
+  journal: "Case Studies on Transport Policy"
+  doi: "10.1016/j.cstp.2023.100969"
+  url: https://www.sciencedirect.com/science/article/pii/S2213624X23000512
+  featured: false
+
+- year: 2023
+  authors: "Chakraborty, D., Lee, J. H., Chakraborty, A., & Tal, G."
+  title: "To adopt rooftop solar or not along with electric vehicles? Exploring the factors influencing co-adoption decisions among electric vehicle owners in California"
+  type: peer-reviewed
+  journal: "The Electricity Journal"
+  doi: "10.1016/j.tej.2023.107315"
+  url: https://www.sciencedirect.com/science/article/pii/S1040619023000817
+  featured: false
+
+# ── 2022 ──────────────────────────────────────────────────────────────────────
+
+- year: 2022
+  authors: "Chakraborty, D., Bunch, D. S., Brownstone, D., Tal, G., & Xu, B."
+  title: "Plug-in electric vehicle diffusion in California: Role of exposure to new technology at home and work"
+  type: peer-reviewed
+  journal: "Transportation Research Part A: Policy and Practice"
+  doi: "10.1016/j.tra.2021.12.004"
+  url: https://www.sciencedirect.com/science/article/pii/S0965856421003256
+  featured: false
+
+- year: 2022
+  authors: "Mandev, A., Plötz, P., Sprei, F., & Tal, G."
+  title: "Empirical charging behavior of plug-in hybrid electric vehicles"
+  type: peer-reviewed
+  journal: "Applied Energy"
+  doi: "10.1016/j.apenergy.2022.119293"
+  url: https://www.sciencedirect.com/science/article/pii/S0306261922006638
+  featured: false
+
+- year: 2022
+  authors: "Hardman, S., Chakraborty, D., & Tal, G."
+  title: "Estimating the travel demand impacts of semi-automated vehicles"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2022.103311"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920922000682
+  featured: false
+
+- year: 2022
+  authors: "Raghavan, S. S., & Tal, G."
+  title: "Plug-in hybrid electric vehicle observed utility factor: Why the observed electrification performance differs from expectations"
+  type: peer-reviewed
+  journal: "International Journal of Sustainable Transportation"
+  doi: "10.1080/15568318.2020.1827318"
+  url: https://www.tandfonline.com/doi/full/10.1080/15568318.2020.1827318
+  featured: false
+
+- year: 2022
+  authors: "Chakraborty, D., Hardman, S., & Tal, G."
+  title: "Integrating plug-in electric vehicles (PEVs) into household fleets: Factors influencing miles traveled by PEV owners in California"
+  type: peer-reviewed
+  journal: "Travel Behaviour and Society"
+  doi: "10.1016/j.tbs.2021.09.005"
+  url: https://www.sciencedirect.com/science/article/pii/S2214367X21000880
+  featured: false
+
+- year: 2022
+  authors: "Tsoi, K. H., Loo, B. P. Y., Tal, G., & Sperling, D."
+  title: "Pioneers of electric mobility: Lessons about transport decarbonisation from two bay areas"
+  type: peer-reviewed
+  journal: "Journal of Cleaner Production"
+  doi: "10.1016/j.jclepro.2021.129866"
+  url: https://www.sciencedirect.com/science/article/pii/S0959652621040634
+  featured: false
+
+- year: 2022
+  authors: "Karanam, C. V., Davis, A., Sugihara, C., Sutton, K., & Tal, G."
+  title: "From shifting gears to changing modes: The impact of driver inputs on plug-in hybrid electric vehicle energy use and emissions"
+  type: peer-reviewed
+  journal: "Transportation Research Interdisciplinary Perspectives"
+  doi: "10.1016/j.trip.2022.100597"
+  url: https://www.sciencedirect.com/science/article/pii/S2590198222000525
+  featured: false
+
+# ── 2021 ──────────────────────────────────────────────────────────────────────
 
 - year: 2021
   authors: "Hardman, S., & Tal, G."
   title: "Understanding discontinuance among California's electric vehicle owners"
   type: peer-reviewed
-  journal: Nature Energy
+  journal: "Nature Energy"
   doi: "10.1038/s41560-021-00814-9"
   url: https://www.nature.com/articles/s41560-021-00814-9
+  featured: true
+
+- year: 2021
+  authors: "Muratori, M., Alexander, M., Arent, D., Bazilian, M., Dede, E. M., Farrell, J., Greene, D., Jenn, A., Keyser, M., Lipman, T., Tal, G., et al."
+  title: "The rise of electric vehicles: 2020 status and future expectations"
+  type: peer-reviewed
+  journal: "Progress in Energy"
+  doi: "10.1088/2516-1083/abe0ad"
+  url: https://iopscience.iop.org/article/10.1088/2516-1083/abe0ad
+  featured: false
+
+- year: 2021
+  authors: "Benoliel, P., Jenn, A., & Tal, G."
+  title: "Examining energy uncertainty in battery bus deployments for transit agencies in California"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2021.102963"
+  url: https://www.sciencedirect.com/science/article/pii/S136192092100153X
+  featured: false
+
+- year: 2021
+  authors: "Raghavan, S. S., & Tal, G."
+  title: "Technology implications of electromobility on household travel emissions"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2021.102792"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920921000213
+  featured: false
+
+- year: 2021
+  authors: "Sugihara, C., Sutton, K., Davis, A., Karanam, V., & Tal, G."
+  title: "From sport to eco: A case study of driver inputs on electric vehicle efficiency"
+  type: peer-reviewed
+  journal: "Transportation Research Part F: Traffic Psychology and Behaviour"
+  doi: "10.1016/j.trf.2021.09.007"
+  url: https://www.sciencedirect.com/science/article/pii/S1369847821002229
+  featured: false
+
+# ── 2020 ──────────────────────────────────────────────────────────────────────
+
+- year: 2020
+  authors: "Jenn, A., Lee, J. H., Hardman, S., & Tal, G."
+  title: "An in-depth examination of electric vehicle incentives: Consumer heterogeneity and changing response over time"
+  type: peer-reviewed
+  journal: "Transportation Research Part A: Policy and Practice"
+  doi: "10.1016/j.tra.2019.11.001"
+  url: https://www.sciencedirect.com/science/article/pii/S0965856419307432
   featured: false
 
 - year: 2020
-  authors: "Lee, J.H., Chakraborty, D., Hardman, S.J., & Tal, G."
+  authors: "Chakraborty, D., Hardman, S., & Tal, G."
+  title: "Why do some consumers not charge their plug-in hybrid vehicles? Evidence from Californian plug-in hybrid owners"
+  type: peer-reviewed
+  journal: "Environmental Research Letters"
+  doi: "10.1088/1748-9326/ab9867"
+  url: https://iopscience.iop.org/article/10.1088/1748-9326/ab9867
+  featured: false
+
+- year: 2020
+  authors: "Lee, J. H., Chakraborty, D., Hardman, S., & Tal, G."
   title: "Exploring electric vehicle charging patterns: Mixed usage of charging infrastructure"
   type: peer-reviewed
   journal: "Transportation Research Part D: Transport and Environment"
-  doi: "10.1016/j.trd.2019.102249"
+  doi: "10.1016/j.trd.2020.102249"
   url: https://www.sciencedirect.com/science/article/pii/S1361920919307151
   featured: false
+
+- year: 2020
+  authors: "Ji, W., & Tal, G."
+  title: "Scenarios for transitioning cars from ICE vehicles to BEVs and PHEVs using household-level GPS travel data"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2020.102555"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920920307082
+  featured: false
+
+# ── 2019 ──────────────────────────────────────────────────────────────────────
+
+- year: 2019
+  authors: "Chakraborty, D., Bunch, D. S., Lee, J. H., & Tal, G."
+  title: "Demand drivers for charging infrastructure: Charging behavior of plug-in electric vehicle commuters"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2019.09.020"
+  url: https://www.sciencedirect.com/science/article/pii/S1361920919302950
+  featured: false
+
+- year: 2019
+  authors: "Lee, J. H., Hardman, S., & Tal, G."
+  title: "Who is buying electric vehicles in California? Characterizing early adopter heterogeneity and forecasting market diffusion"
+  type: peer-reviewed
+  journal: "Energy Research & Social Science"
+  doi: "10.1016/j.erss.2019.01.009"
+  url: https://www.sciencedirect.com/science/article/pii/S2214629618308399
+  featured: false
+
+- year: 2019
+  authors: "Hardman, S., Berliner, R., & Tal, G."
+  title: "Who will be the early adopters of automated vehicles? Insights from a survey of electric vehicle owners in the United States"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2019.04.001"
+  url: https://www.sciencedirect.com/science/article/pii/S136192091830710X
+  featured: false
+
+- year: 2019
+  authors: "Berliner, R. M., Hardman, S., & Tal, G."
+  title: "Uncovering early adopter's perceptions and purchase intentions of automated vehicles: Insights from early adopters of electric vehicles in California"
+  type: peer-reviewed
+  journal: "Transportation Research Part F: Traffic Psychology and Behaviour"
+  doi: "10.1016/j.trf.2018.11.010"
+  url: https://www.sciencedirect.com/science/article/pii/S1369847818302468
+  featured: false
+
+- year: 2019
+  authors: "Canepa, K., Hardman, S., & Tal, G."
+  title: "An early look at plug-in electric vehicle adoption in disadvantaged communities in California"
+  type: peer-reviewed
+  journal: "Transport Policy"
+  doi: "10.1016/j.tranpol.2019.01.003"
+  url: https://www.sciencedirect.com/science/article/pii/S0967070X18303147
+  featured: false
+
+# ── 2018 ──────────────────────────────────────────────────────────────────────
 
 - year: 2018
   authors: "Hardman, S., Jenn, A., Tal, G., Axsen, J., Beard, G., Daina, N., Figenbaum, E., et al."
@@ -105,4 +420,164 @@
   journal: "Transportation Research Part D: Transport and Environment"
   doi: "10.1016/j.trd.2018.01.002"
   url: https://www.sciencedirect.com/science/article/pii/S1361920917303620
+  featured: false
+
+- year: 2018
+  authors: "Hardman, S., & Tal, G."
+  title: "Who are the early adopters of fuel cell vehicles?"
+  type: peer-reviewed
+  journal: "International Journal of Hydrogen Energy"
+  doi: "10.1016/j.ijhydene.2018.07.207"
+  url: https://www.sciencedirect.com/science/article/pii/S0360319918323978
+  featured: false
+
+# ── 2017 ──────────────────────────────────────────────────────────────────────
+
+- year: 2017
+  authors: "Wang, Y., Sperling, D., Tal, G., & Fang, H."
+  title: "China's electric car surge"
+  type: peer-reviewed
+  journal: "Energy Policy"
+  doi: "10.1016/j.enpol.2016.11.069"
+  url: https://www.sciencedirect.com/science/article/pii/S0301421516307005
+  featured: false
+
+- year: 2017
+  authors: "Hardman, S., Chandan, A., Tal, G., & Turrentine, T."
+  title: "The effectiveness of financial purchase incentives for battery electric vehicles: A review of the evidence"
+  type: peer-reviewed
+  journal: "Renewable and Sustainable Energy Reviews"
+  doi: "10.1016/j.rser.2017.05.255"
+  url: https://www.sciencedirect.com/science/article/pii/S136403211730825X
+  featured: false
+
+# ── 2016 ──────────────────────────────────────────────────────────────────────
+
+- year: 2016
+  authors: "Tal, G., & Nicholas, M."
+  title: "Exploring impact of the federal tax credit on the plug-in vehicle market"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2572-10"
+  url: https://journals.sagepub.com/doi/10.3141/2572-10
+  featured: false
+
+- year: 2016
+  authors: "Hardman, S., & Tal, G."
+  title: "Exploring the decision to adopt a high-end battery electric vehicle: Role of financial and nonfinancial motivations"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2572-03"
+  url: https://journals.sagepub.com/doi/10.3141/2572-03
+  featured: false
+
+# ── 2015 ──────────────────────────────────────────────────────────────────────
+
+- year: 2015
+  authors: "Ji, W., Nicholas, M., & Tal, G."
+  title: "Electric vehicle fast charger planning for metropolitan planning organizations: Adapting to changing markets and vehicle technology"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2502-16"
+  url: https://journals.sagepub.com/doi/10.3141/2502-16
+  featured: false
+
+# ── 2014 ──────────────────────────────────────────────────────────────────────
+
+- year: 2014
+  authors: "Tal, G., Nicholas, M. A., Davies, J., & Woodjack, J."
+  title: "Charging behavior impacts on electric vehicle miles traveled: Who is not plugging in?"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2454-07"
+  url: https://journals.sagepub.com/doi/10.3141/2454-07
+  featured: false
+
+# ── 2012 ──────────────────────────────────────────────────────────────────────
+
+- year: 2012
+  authors: "Tal, G., & Handy, S. L."
+  title: "Measuring nonmotorized accessibility and connectivity in a robust pedestrian network"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2299-06"
+  url: https://journals.sagepub.com/doi/10.3141/2299-06
+  featured: false
+
+- year: 2012
+  authors: "Salon, D., Boarnet, M. G., Handy, S., Spears, S., & Tal, G."
+  title: "How do local actions affect VMT? A critical review of the empirical evidence"
+  type: peer-reviewed
+  journal: "Transportation Research Part D: Transport and Environment"
+  doi: "10.1016/j.trd.2012.07.001"
+  url: https://www.sciencedirect.com/science/article/pii/S136192091200090X
+  featured: false
+
+# ── 2011 ──────────────────────────────────────────────────────────────────────
+
+- year: 2011
+  authors: "Tal, G., & Cohen-Blankshtain, G."
+  title: "Understanding the sources of overestimation bias in studies of travel demand management policies"
+  type: peer-reviewed
+  journal: "Transportation Research Part A: Policy and Practice"
+  doi: "10.1016/j.tra.2011.01.005"
+  url: https://www.sciencedirect.com/science/article/pii/S0965856411000097
+  featured: false
+
+# ── 2010 ──────────────────────────────────────────────────────────────────────
+
+- year: 2010
+  authors: "Tal, G., & Handy, S. L."
+  title: "Travel behavior of immigrants: Analysis of 2001 National Household Travel Survey"
+  type: peer-reviewed
+  journal: "Transport Policy"
+  doi: "10.1016/j.tranpol.2009.12.002"
+  url: https://www.sciencedirect.com/science/article/pii/S0967070X09001243
+  featured: false
+
+# ── 2008 ──────────────────────────────────────────────────────────────────────
+
+- year: 2008
+  authors: "Tal, G."
+  title: "Overestimation reduction in forecasting telecommuting as a TDM policy"
+  type: peer-reviewed
+  journal: "Transportation Research Record"
+  doi: "10.3141/2082-02"
+  url: https://journals.sagepub.com/doi/10.3141/2082-02
+  featured: false
+
+# ── EDITED VOLUMES ────────────────────────────────────────────────────────────
+
+- year: 2020
+  authors: "Contestabile, M., Tal, G., & Turrentine, T. (Eds.)"
+  title: "Who's Driving Electric Cars: Understanding Consumer Adoption and Use of Plug-in Electric Cars"
+  type: edited-volume
+  journal: "Springer Nature, Switzerland"
+  url: https://link.springer.com/book/10.1007/978-3-030-47656-6
+  featured: false
+
+# ── BOOK CHAPTERS ─────────────────────────────────────────────────────────────
+
+- year: 2023
+  authors: "Kuby, M. J., Martinez, A. S., Kelsey, S. B., & Tal, G."
+  title: "Hydrogen station location analysis and optimization: Advanced models and behavioral evidence"
+  type: book-chapter
+  journal: "In: Hydrogen Economy. Academic Press"
+  url: https://www.sciencedirect.com/book/9780323995634/hydrogen-economy
+  featured: false
+
+- year: 2020
+  authors: "Tal, G., Kurani, K., Jenn, A., Chakraborty, D., Hardman, S., & Garas, D."
+  title: "PEVs in the U.S.: Policy evolution and behavioural perspectives"
+  type: book-chapter
+  journal: "In: Who's Driving Electric Cars. Springer Nature Switzerland"
+  url: https://link.springer.com/book/10.1007/978-3-030-47656-6
+  featured: false
+
+- year: 2013
+  authors: "Mokhtarian, P., & Tal, G."
+  title: "Impacts of ICT on travel behavior: A tapestry of relationships"
+  type: book-chapter
+  journal: "In: The SAGE Handbook of Transport Studies. SAGE Publications"
+  url: https://us.sagepub.com/en-us/nam/the-sage-handbook-of-transport-studies/book236174
   featured: false
