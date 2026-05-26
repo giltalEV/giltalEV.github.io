@@ -16,6 +16,17 @@ layout: default
       {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
     </header>
 
+    {% if page.featured_image %}
+    <div class="post-featured-image">
+      <img src="{{ page.featured_image | relative_url }}"
+           alt="{{ page.featured_image_alt | default: page.title }}"
+           class="post-hero-img">
+      {% if page.featured_image_caption %}
+      <p class="post-img-caption">{{ page.featured_image_caption }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+
     <div class="post-body">
       {{ content }}
     </div>
