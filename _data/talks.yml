@@ -1,47 +1,292 @@
 # _data/talks.yml
-# Add new items at the TOP of this list.
-# Required: date, event, title, location
-# Optional: url, type, slides_url
-# Types: keynote, invited, briefing, panel, webinar
+# Source: Gil Tal CV, last updated April 2026
+# Invited talks, keynotes, panels, and conference presentations 2022-2026
 
-- date: 2026-05-15
-  event: CARB ZEV Policy Workshop
-  title: "Used EV Markets and the Path to 100% ZEV Sales"
-  location: Sacramento, CA
-  type: briefing
-  featured: true
+# ── 2026 ──────────────────────────────────────────────────────────────────────
 
-- date: 2026-04-10
-  event: SAE World Congress
-  title: "Beyond Early Adopters: Mainstream EV Transition Dynamics"
-  location: Detroit, MI
-  type: keynote
-  featured: true
+- year: 2026
+  month: April
+  title: "Panel discussion on the future of new mobility"
+  venue: "UCLA Lake Arrowhead Symposium"
+  location: "Lake Arrowhead, CA"
+  role: panelist
+  note: "With Juan Matute, Jiaqi Ma, Andrew Glass Hastings, and Alycia Gilde. Chatham House rules."
 
-- date: 2026-03-03
-  event: Transportation Research Board Annual Meeting
-  title: "Section 1129 Feebate Analysis: Revenue-Neutral ZEV Policy Design"
-  location: Washington, DC
-  type: invited
-  featured: false
+- year: 2026
+  month: April
+  title: "Accelerating the Transition Conference"
+  venue: "San Francisco Climate Week"
+  location: "San Francisco, CA"
+  role: panelist
+  note: "Panel with Dan Sperling, former CA State Senator Nancy Skinner, Paul Stith, and Xantha Bruso of CALSTART."
 
-- date: 2025-11-14
-  event: UC Statewide Energy Efficiency Collaborative
-  title: "EV Charging Load Profiles and Grid Integration"
-  location: Davis, CA
-  type: invited
-  featured: false
+- year: 2026
+  month: March
+  title: "The Five-Minute Challenge: Ultra-Fast Charging vs. Battery Swapping"
+  venue: "CERAWeek 2026"
+  location: "Houston, TX"
+  role: panelist
+  note: "With Ganesh Iyer (NIO), Lydia Krefta (PG&E), and Alexander Edwards (Strategic Insight). Curated and moderated by Levi Tillemann for S&P Global Innovation Agora."
 
-- date: 2025-09-28
-  event: Governor's Office of Business & Economic Development Briefing
-  title: "California EV Industry: Employment and Investment Data"
-  location: Sacramento, CA
-  type: briefing
-  featured: false
+# ── 2025 ──────────────────────────────────────────────────────────────────────
 
-- date: 2025-06-12
-  event: International Electric Vehicle Symposium (EVS38)
-  title: "Long-Term EV Ownership Patterns: 10 Years of Panel Data"
-  location: Lyon, France
-  type: invited
-  featured: false
+- year: 2025
+  month: June
+  title: "Preparing California's Energy Grid for New Load Sources at Scale"
+  venue: "California Council on Science and Technology"
+  location: "Online"
+  role: invited speaker
+  attendees: 150
+
+- year: 2025
+  month: June
+  title: "2025 Drive Electric Advisory Group Meeting"
+  venue: "United Nations Environment Programme"
+  location: "Nairobi, Kenya"
+  role: invited speaker
+  attendees: 80
+
+- year: 2025
+  month: June
+  title: "4th Annual Transatlantic Transportation Decarbonization Summit"
+  venue: "International Council on Clean Transportation (ICCT)"
+  location: "London, UK"
+  role: invited speaker
+  attendees: 150
+
+- year: 2025
+  month: May
+  title: "Workshop: Designing Supply-Side Vehicle Regulations"
+  venue: "UC Davis"
+  location: "Davis, CA"
+  role: invited speaker
+  attendees: 50
+
+- year: 2025
+  month: May
+  title: "Electric Vehicle Conference 2025"
+  venue: "EV Conference 2025"
+  location: "Stuttgart, Germany"
+  role: organizer
+  attendees: 250
+
+- year: 2025
+  month: January
+  title: "20th Asilomar Conference on Transportation, Environment, and Energy Policy"
+  venue: "Asilomar Conference Grounds"
+  location: "Pacific Grove, CA"
+  role: co-organizer
+
+- year: 2025
+  month: January
+  title: "SAE Government and Industry Meeting"
+  venue: "SAE International"
+  location: "Washington, DC"
+  role: invited speaker
+  attendees: 150
+
+- year: 2025
+  month: January
+  title: "Mobility Global Forum, Detroit Auto Show"
+  venue: "Detroit Auto Show"
+  location: "Detroit, MI"
+  role: invited speaker
+  attendees: 250
+
+- year: 2025
+  month: January
+  title: "Capitol Hill Research Briefing: Federal Policy Opportunities for Improving the Electric Vehicle Charging Ecosystem"
+  venue: "Capitol Hill"
+  location: "Washington, DC"
+  role: invited speaker
+  attendees: 80
+
+# ── 2024 ──────────────────────────────────────────────────────────────────────
+
+- year: 2024
+  month: July
+  title: "17th International Conference on Travel Behaviour Research"
+  venue: "IATBR 2024"
+  location: "Vienna, Austria"
+  role: presenter
+  attendees: 500
+
+- year: 2024
+  month: July
+  title: "DEC Advisory Group Workshop"
+  venue: "DEC Advisory Group"
+  location: "Los Angeles, CA"
+  role: invited speaker
+  attendees: 50
+
+- year: 2024
+  month: July
+  title: "CalETC and 2050 Partners EV Charging Tech Toolbox"
+  venue: "CalETC / 2050 Partners"
+  location: "Online"
+  role: keynote speaker
+  attendees: 50
+
+- year: 2024
+  month: June
+  title: "3rd Annual Transatlantic Transportation Decarbonization Summit"
+  venue: "International Council on Clean Transportation (ICCT)"
+  location: "Quebec (Esterel), Canada"
+  role: participant
+  attendees: 200
+
+- year: 2024
+  month: June
+  title: "Industry Studies Association Conference"
+  venue: "ISA Conference"
+  location: "Sacramento, CA"
+  role: invited speaker
+  attendees: 250
+
+- year: 2024
+  month: June
+  title: "Distributed Energy Resources Membership Advisory Group (DER MAG) Summer Meeting"
+  venue: "DER MAG"
+  location: "Milwaukee, WI"
+  role: keynote speaker
+  attendees: 50
+
+- year: 2024
+  month: May
+  title: "STEPS+ Spring Research Symposium"
+  venue: "UC Davis"
+  location: "Davis, CA"
+  role: organizer
+  attendees: 220
+
+- year: 2024
+  month: March
+  title: "Subaru EV Workshop"
+  venue: "Subaru of America"
+  location: "Philadelphia, PA"
+  role: keynote speaker
+  attendees: 35
+
+- year: 2024
+  month: February
+  title: "Testimony, California Assembly Standing Committee on Utilities and Energy"
+  venue: "California State Assembly"
+  location: "Sacramento, CA"
+  role: invited speaker
+  attendees: 50
+
+- year: 2024
+  month: February
+  title: "UC ITS Briefing: EV Charging and the Grid"
+  venue: "UC ITS"
+  location: "Davis, CA"
+  role: invited speaker
+  attendees: 40
+
+- year: 2024
+  month: January
+  title: "NCST Capitol Hill Research Briefing"
+  venue: "National Center for Sustainable Transportation"
+  location: "Washington, DC"
+  role: invited speaker
+  attendees: 70
+
+# ── 2023 ──────────────────────────────────────────────────────────────────────
+
+- year: 2023
+  month: November
+  title: "STEPS+ Symposium"
+  venue: "UC Davis"
+  location: "Davis, CA"
+  role: organizer
+  attendees: 150
+
+- year: 2023
+  month: October
+  title: "New South Wales Government Briefing on EV Charging Infrastructure"
+  venue: "NSW Government"
+  location: "Sydney, Australia"
+  role: invited speaker
+  attendees: 30
+
+- year: 2023
+  month: October
+  title: "Reaching 100% ZEV Sales: Electric Vehicle Buyers, Infrastructure, and Supply Regulations"
+  venue: "University of New South Wales"
+  location: "Sydney, Australia"
+  role: invited speaker
+  attendees: 50
+
+- year: 2023
+  month: September
+  title: "2023 Drive Electric Advisory Group Working Meeting"
+  venue: "UNEP Drive Electric Campaign"
+  location: "Costa Rica"
+  role: presenter
+  attendees: 80
+
+- year: 2023
+  month: May
+  title: "STEPS+ Symposium"
+  venue: "UC Davis"
+  location: "Davis, CA"
+  role: organizer
+  attendees: 150
+
+- year: 2023
+  month: April
+  title: "EV Mexico Alianza"
+  venue: "EV Mexico"
+  location: "Mexico City, Mexico"
+  role: keynote speaker
+  attendees: 200
+
+- year: 2023
+  month: March
+  title: "EVS Expo"
+  venue: "Electric Vehicle Symposium"
+  location: "Las Vegas, NV"
+  role: keynote speaker
+  attendees: 300
+
+- year: 2023
+  month: February
+  title: "Workshop for California and Mexico Medium and Heavy Duty ZEV Transition"
+  venue: "UC Riverside"
+  location: "Riverside, CA"
+  role: presenter
+  attendees: 60
+
+- year: 2023
+  month: January
+  title: "IEPR Commissioner Workshop on California's Economic Outlook"
+  venue: "California Energy Commission"
+  location: "Online"
+  role: invited speaker
+  attendees: 100
+
+- year: 2023
+  month: January
+  title: "UC ITS Briefing: Zero-Emission Vehicle Adoption and Implications for California's Power Grid"
+  venue: "UC ITS"
+  location: "Davis, CA"
+  role: invited speaker
+  attendees: 30
+
+# ── 2022 ──────────────────────────────────────────────────────────────────────
+
+- year: 2022
+  month: December
+  title: "STEPS+ Conference"
+  venue: "UC Davis"
+  location: "Davis, CA"
+  role: organizer
+  attendees: 150
+
+- year: 2022
+  month: November
+  title: "COP27"
+  venue: "United Nations Climate Change Conference"
+  location: "Sharm El Sheikh, Egypt"
+  role: participant
+  attendees: 50
