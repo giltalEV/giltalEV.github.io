@@ -1,75 +1,12 @@
 # _data/media.yml
+# Verified media appearances only — no hallucinated entries.
 # Add new items at the TOP of this list (reverse-chronological order).
 # Required fields: date, outlet, title, url, type
 # Type options: radio, print, tv, podcast, online
 # Set featured: true for items to appear on homepage (keep to 4-5 max)
+#
+# HOW TO ADD:
+#   "Add this media hit: [URL]" — Claude will generate the entry.
+#   Or paste the details below manually.
 
-- date: 2026-05-01
-  outlet: KQED Forum
-  title: "California's electric vehicle future after federal tax credit changes"
-  url: https://www.kqed.org/
-  type: radio
-  featured: true
-
-- date: 2026-04-27
-  outlet: CalMatters
-  title: "The EV cliff arrived on schedule — here's what the data shows"
-  url: https://calmatters.org/
-  type: online
-  featured: true
-
-- date: 2026-03-15
-  outlet: NPR Marketplace
-  title: "Used EV market grows as early adopters trade up"
-  url: https://www.marketplace.org/
-  type: radio
-  featured: false
-
-- date: 2026-02-10
-  outlet: Los Angeles Times
-  title: "Why California's EV mandate is holding — and what could derail it"
-  url: https://www.latimes.com/
-  type: print
-  featured: false
-
-- date: 2026-01-20
-  outlet: Bloomberg Green
-  title: "The science of EV range anxiety — and why it keeps shrinking"
-  url: https://www.bloomberg.com/green
-  type: online
-  featured: false
-
-- date: 2025-11-05
-  outlet: KCRW Press Play
-  title: "What happens to EV adoption without the federal tax credit?"
-  url: https://www.kcrw.com/
-  type: radio
-  featured: false
-
-- date: 2025-10-18
-  outlet: The Guardian
-  title: "Electric vehicles are going mainstream. Here's the evidence."
-  url: https://www.theguardian.com/
-  type: online
-  featured: false
-
-- date: 2025-09-22
-  outlet: Associated Press
-  title: "UC Davis researchers track how Americans are actually using EVs"
-  url: https://apnews.com/
-  type: online
-  featured: false
-
-- date: 2025-08-14
-  outlet: KPCC AirTalk
-  title: "ZEV policy after the federal pullback: California's options"
-  url: https://laist.com/
-  type: radio
-  featured: false
-
-- date: 2025-07-09
-  outlet: Politico
-  title: "The data behind EV adoption — and what it means for policy"
-  url: https://www.politico.com/
-  type: online
-  featured: false
+# No verified entries yet. Add real appearances as you recall them.
